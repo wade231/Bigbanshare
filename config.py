@@ -13,10 +13,10 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6035735532:AAG-zSUZr2gzF9ZbWlfxSwhor8lxQfISuI0")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "2132402"))
+APP_ID = int(os.environ.get("APP_ID", "25374857"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "d8ae5b42da814105c8433a4a02767f6f")
+API_HASH = os.environ.get("API_HASH", "8dbe7ae242089f75162fbd3c4ddeb381")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001468794532"))
