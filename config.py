@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6035735532:AAG-zSUZr2gzF9ZbWlfxSwhor8lxQfISuI0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6267256834:AAF92nrVO44YRTCQgAcx2QZiosZ6_yOPFJ4")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "25374857"))
@@ -28,11 +28,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5911954612"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://clone:clone@cluster0.go11yez.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://clone2:clone2@cluster0.ctv0ysf.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001736090857"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
